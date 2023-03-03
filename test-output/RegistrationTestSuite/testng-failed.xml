@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegistrationTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RegistrationTest(failed)">
+    <classes>
+      <class name="com.packt.tests.Registration">
+        <methods>
+          <include name="registration"/>
+        </methods>
+      </class> <!-- com.packt.tests.Registration -->
+    </classes>
+  </test> <!-- RegistrationTest(failed) -->
+</suite> <!-- Failed suite [RegistrationTestSuite] -->
